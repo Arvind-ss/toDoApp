@@ -8,7 +8,7 @@ import AddItem from "./AddItem";
 import SearchItem from "./SearchItem";
 function App() {
   const [items, setItems] = useState(JSON.parse
-    (localStorage.getItem('todo_list'))
+    (localStorage.getItem('todo_list'))||[]
     
   );
     //SearchItem

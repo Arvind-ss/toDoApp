@@ -64,13 +64,12 @@ main p {
 /* Search Box Styling */
 .searchForm{
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
+   justify-content: center;
+  align-items: center; 
 }
 #search{
   width:300px;
-  height: 35px;
-  margin-left: 635px;
+  height: 35px;  
   border: 1px solid black;
   border-radius: 10px;
   background-color: whitesmoke;
